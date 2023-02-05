@@ -9,6 +9,7 @@
   --light: #f4f4fd;
   --modal-overlay: #2e2f42;
   --hero-background: #2e2f42;
+  --background: #ffffff;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -16,41 +17,37 @@ body {
 }
 
 .header {
-  border: var(--accent);
-  background-color: #d9d9d9;
 }
 .header-logo {
   color: var(--primary-brand);
   font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .logo-dark {
   color: var(--dark);
-  font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
 }
 .logo-light {
-  font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
-  color: #ffffff;
+  line-height: 1.33;
+  color: var(--background);
 }
 .header-nav {
   list-style: none;
 }
 .nav-link {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark);
   text-decoration: none;
@@ -65,10 +62,9 @@ body {
   list-style: none;
 }
 .contact-link {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--text);
   text-decoration: none;
 }
@@ -83,21 +79,22 @@ body {
   background-color: var(--dark);
 }
 .hero-title {
-  color: #ffffff;
-  font-weight: 700;
+  color: var(--background);
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   background: var(--primary-brand);
-  color: #ffffff;
+  color: var(--background);
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
+  letter-spacing: 0.04em;
 }
 .hero-button:hover {
   background-color: var(--pressed-state);
@@ -106,7 +103,7 @@ body {
   background-color: var(--pressed-state);
 }
 .advantages {
-  background-color: #ffffff;
+  background-color: var(--background);
 }
 .advantages-list {
   list-style: none;
@@ -114,22 +111,21 @@ body {
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   color: var(--dark);
 }
 .advantages-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--text);
 }
 .services {
-  background-color: #ffffff;
+  background-color: var(--background);
 }
 .services-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   color: var(--dark);
 }
 .services-list {
@@ -143,26 +139,25 @@ body {
 .employees-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   color: var(--dark);
 }
 .employees-list {
   list-style: none;
 }
 .employee-card {
-  background-color: #ffffff;
+  background-color: var(--background);
 }
 .employee-avatar {
 }
 .employee-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 .employee-position {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 }
 .footer {
   background-color: var(--dark);
@@ -172,13 +167,13 @@ body {
   font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--accent);
 }
 .header {
@@ -208,7 +203,7 @@ body {
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--primary-brand);
   font-family: inherit;
 }
@@ -217,7 +212,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--background);
   cursor: pointer;
 }
 .list-btn:focus {
@@ -225,7 +220,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--background);
   cursor: pointer;
 }
 .main-cards {
@@ -241,13 +236,12 @@ body {
 .projects-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   color: var(--dark);
 }
 .projects-description {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--text);
 }
 .footer {
