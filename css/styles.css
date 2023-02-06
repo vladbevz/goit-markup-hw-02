@@ -20,7 +20,7 @@ body {
 }
 .header-logo {
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -30,10 +30,6 @@ body {
 }
 .logo-dark {
   color: var(--dark);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
 }
 .logo-light {
   font-weight: 800;
@@ -62,11 +58,11 @@ body {
   list-style: none;
 }
 .contact-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .contact-link:hover {
   color: var(--pressed-state);
@@ -113,20 +109,22 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark);
+  letter-spacing: 0.02em;
 }
 .advantages-text {
   font-size: 16px;
   line-height: 1.5;
   color: var(--text);
+  letter-spacing: 0.02em;
 }
 .services {
   background-color: var(--background);
 }
 .services-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--dark);
+  letter-spacing: 0.02em;
 }
 .services-list {
   list-style: none;
@@ -137,10 +135,10 @@ body {
   background-color: var(--light);
 }
 .employees-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--dark);
+  letter-spacing: 0.02em;
 }
 .employees-list {
   list-style: none;
@@ -154,20 +152,23 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .employee-position {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer {
   background-color: var(--dark);
 }
 .footer-logo {
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -175,6 +176,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--accent);
+  letter-spacing: 0.02em;
 }
 .header {
 }
@@ -204,6 +206,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--primary-brand);
   font-family: inherit;
 }
@@ -237,11 +240,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .projects-description {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text);
 }
 .footer {
